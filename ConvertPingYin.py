@@ -11,7 +11,7 @@ class CConvert:
 		"Load data table"
 		try:
 			#fp=open(os.path.join(settings.PROJECT_DIR, 'utils', 'convert-utf-8.txt'))
-			fp=open('convert_utf_8.txt')
+			fp=open('convert_utf_8.txt',"r")
 		except IOError:
 			print "Can't load data from convert-utf-8.txt\nPlease make sure this file exists."
 			sys.exit(1)
